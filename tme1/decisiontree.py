@@ -1,10 +1,12 @@
 import numpy as np
 from collections import Counter
 import pickle
-try:
-    import pydot  #pour l'affichage graphique d'arbres
-except ImportError:
-    print("Pydot non disponible pour l'affichage graphique, allez sur http://www.webgraphviz.com/ pour generer un apercu de l'arbre")
+import pydot
+
+#try:
+#    import pydot  #pour l'affichage graphique d'arbres
+#except ImportError:
+#  print("Pydot non disponible pour l'affichage graphique, allez sur http://www.webgraphviz.com/ pour generer un apercu de l'arbre")
 
 ###############################
 # Fonctions auxiliaires
